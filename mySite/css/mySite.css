@@ -1,0 +1,86 @@
+body {
+  background: #6c7062;
+}
+.about, .f {
+  padding-top: 1vh;
+}
+.h__top-menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  background: #B4B8AB;
+}
+.h__top-menu a {
+  font-family: 'Arimo', sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: bold;
+}
+.about {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 10px;
+}
+.about__img {
+  grid-column: 1; /*грид занимает одну колонку, поэтому можно сократить запись*/
+  grid-row: 1 / 4;
+}
+.about__me {
+  grid-column: 2 / 4;
+  grid-row: 1; /*грид занимает одну строку, поэтому можно сократить запись*/
+  font-family: 'Arimo', sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.about__life {
+  grid-column: 2; /*грид занимает одну колонку, поэтому можно сократить запись*/
+  grid-row: 2 / 4;
+  font-family: 'Arimo', sans-serif;
+  text-align: justify;
+}
+.about__course {
+  grid-column: 3; /*грид занимает одну колонку, поэтому можно сократить запись*/
+  grid-row: 2 / 4;
+  font-family: 'Arimo', sans-serif;
+  text-align: justify;
+}
+.stack__img {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /*grid-template-rows: 300px;*/
+  grid-column-gap: 10px;
+  margin: 0;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.f__menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  background: #52544C;
+}
+.f__menu a {
+  font-family: 'Arimo', sans-serif;
+  text-align: justify;
+  color: white;
+  font-weight: bold;
+}
+.contacts {
+  grid-column: 2/3;
+  margin-bottom: 10px;
+}
+/*@media screen and (min-width: 1200px){
+  section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+  }
+}*/
+

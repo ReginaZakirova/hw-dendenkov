@@ -1,0 +1,54 @@
+/*body{
+  background-image: url("../img/Wine_Cheese_Sausage_Still-life_Tomatoes_Bottle_513378_2560x1440.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}*/
+.hea{
+  display: flex;
+  /*flex-wrap: wrap;*/
+  /*justify-content: space-around;*/
+  /*flex-direction: row;*/
+}
+body{
+  background: #6c7062;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.flex-hea{
+  padding: 50px;
+  margin: 5px;
+  background-color: palegoldenrod;
+  background-image: url("../img/grape-8k-32-1024x768.jpg");
+}
+.flex-hea-1{
+  padding: 50px;
+  margin: 5px;
+  background-color: palegoldenrod;
+}
+/*div:nth-of-type(2){
+  flex: 1 80%;
+}*/
+.hea div:nth-child(1){
+  flex: 0;
+}
+.hea div:nth-child(2){
+  flex: 1;
+}
+.vine{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-right: 10px;
+  margin-left: 10px;
+  /*color: white;*/
+  /*не смог сделать бэкграунд под бутылками*/
+}
+.snack{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  margin-right: 10px;
+  margin-left: 10px;
+  /*color: white;*/
+  /*не смог сделать бэкграунд под закусками*/
+}
